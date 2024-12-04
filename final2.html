@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Educational Portal</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #2A8B92; color: white; padding: 15px; text-align: center; }
+    nav { display: flex; justify-content: center; background: #f9f9f9; padding: 10px; }
+    nav a { margin: 0 10px; text-decoration: none; color: #2A8B92; }
+    .banner { text-align: center; padding: 20px; background: #E6F2F5; }
+    .content { padding: 20px; }
+    .quick-links, .search, .table-container { margin-bottom: 20px; }
+    .quick-links a { display: block; color: #2A8B92; text-decoration: none; margin-bottom: 5px; }
+    .search input[type="text"] { padding: 10px; width: 80%; }
+    .search button { padding: 10px; background: #2A8B92; color: white; border: none; cursor: pointer; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    th, td { border: 1px solid #ddd; padding: 8px; text-align: center; }
+    th { background: #2A8B92; color: white; }
+    footer { background: #2A8B92; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+    @media (max-width: 600px) {
+      .search input[type="text"], .search button { width: 100%; margin-bottom: 10px; }
+      nav { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Educational Portal</h1>
+    <p>Your gateway to learning resources</p>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#courses">Courses</a>
+    <a href="#resources">Resources</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="banner">
+    <img src="C:\Users\thast\OneDrive\Desktop\hello\ahah.jpg" alt="Educational Banner" style="max-width: 100%; height: auto;">
+    <p>Explore courses, access resources, and start learning today!</p>
+  </div>
+  <div class="content">
+    <div class="search">
+      <input type="text" placeholder="Search for courses, topics...">
+      <button>Search</button>
+    </div>
+    <div class="quick-links">
+      <h3>Quick Links</h3>
+      <a href="#">Math Tutorials</a>
+      <a href="#">Science Projects</a>
+      <a href="#">Language Learning</a>
+      <a href="#">Coding for Beginners</a>
+    </div>
+    <div class="table-container">
+      <h3>Sample Course Schedule</h3>
+      <table>
+        <tr>
+          <th>Course</th>
+          <th>Instructor</th>
+          <th>Time</th>
+        </tr>
+        <tr>
+          <td>Introduction to Algebra</td>
+          <td>Mr. Smith</td>
+          <td>10:00 AM - 11:00 AM</td>
+        </tr>
+        <tr>
+          <td>Physics Fundamentals</td>
+          <td>Dr. Brown</td>
+          <td>11:30 AM - 12:30 PM</td>
+        </tr>
+        <tr>
+          <td>Web Development Basics</td>
+          <td>Ms. Davis</td>
+          <td>2:00 PM - 3:30 PM</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2024 Educational Portal. All rights reserved.</p>
+  </footer>
+</body>
+</html>
